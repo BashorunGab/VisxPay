@@ -46,6 +46,7 @@ export function Welcome({ navigation }) {
         >
           <Text style={styles.signinText}>Sign In</Text>
         </TouchableOpacity>
+        
       </View>
     </View>
   );

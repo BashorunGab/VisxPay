@@ -8,6 +8,7 @@ export function Screen1({ navigation }) {
     }, 3000); 
 
     return () => clearTimeout(timer);
+
   }, [navigation]);
 
   return (

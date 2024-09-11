@@ -26,24 +26,24 @@ export function PersonalInfoScreen({ navigation }) {
             <TextInput
                 style={styles.input}
                 placeholder="Full Name"
-                defaultValue="Fanny Price"
+                defaultValue=""
             />
             <TextInput
                 style={styles.input}
                 placeholder="Email Address"
-                defaultValue="user@example.com"
+                defaultValue=""
                 keyboardType="email-address"
             />
             <TextInput
                 style={styles.input}
                 placeholder="Phone Number"
-                defaultValue="+99 • +123 456 789 0"
+                defaultValue=""
                 keyboardType="phone-pad"
             />
             <TextInput
                 style={styles.input}
                 placeholder="Date of Birth"
-                defaultValue="14 - 05 - 2025"
+                defaultValue=""
             />
 
             {/* Save Changes Button */}
